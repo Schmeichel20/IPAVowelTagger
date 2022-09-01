@@ -89,6 +89,7 @@ function updateCoords()
 
 function copyResults()
 {
+    updateResultsBox();
     var resultsText = resultsBox;
     resultsText.focus();
     resultsText.select();
